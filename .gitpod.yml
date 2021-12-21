@@ -1,3 +1,4 @@
 tasks:
-  - init: npm i -g expo-cli && yarn --yes
+  - init: npm i -g expo-cli
+  - before: yarn --yes
     command: npm start
