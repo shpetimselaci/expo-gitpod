@@ -1,4 +1,4 @@
 tasks:
-  - init: npm i -g expo-cli
-  - before: yarn --yes
-    command: npm start
+  - command: yarn start
+image:
+  file: .gitpod.Dockerfile
